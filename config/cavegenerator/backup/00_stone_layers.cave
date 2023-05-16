@@ -1,0 +1,15 @@
+{
+  enabled: true
+  layers: [
+    {
+      state: backportedblocks:deepslate
+      height: [ 0, 35 ]
+      matchers: minecraft:stone
+      ceiling: {
+        seed: 1
+        dummy: true
+        cache: false
+      }
+    }
+  ]
+}

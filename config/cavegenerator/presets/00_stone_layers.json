@@ -1,0 +1,21 @@
+
+{
+  "enabled": true,
+  "layers":
+  [
+    {
+      "state": "backportedblocks:deepslate",
+      "height":
+      [
+        0,
+        35
+      ],
+      "ceiling":
+      {
+        "seed": 1,
+        "dummy": true,
+        "cache": false
+      }
+    }
+  ]
+}

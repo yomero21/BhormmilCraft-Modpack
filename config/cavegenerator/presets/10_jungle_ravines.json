@@ -1,0 +1,54 @@
+
+{
+  "imports": "common_values.cave::NATURAL_STONE",
+  "biomes":
+  {
+    "types":
+    [
+      "JUNGLE"
+    ]
+  },
+  "replaceableBlocks": "$NATURAL_STONE",
+  "replaceDecorators": false,
+  "ravines":
+  {
+    "chance": 0.2,
+    "distance": 90,
+    "scale":
+    {
+      "startVal": 2,
+      "startValRandFactor": 2
+    },
+    "noiseYFactor": 0.9,
+    "yaw":
+    {
+      "startValRandFactor": 1.5
+    },
+    "pitch":
+    {
+      "startValRandFactor": 1.11
+    },
+    "dYaw":
+    {
+      "randFactor": 6
+    },
+    "originHeight":
+    [
+      10,
+      12
+    ],
+    "stretch":
+    {
+      "startVal": 2
+    },
+    "walls":
+    {
+      "frequency": 0.05,
+      "range":
+      [
+        0,
+        7
+      ]
+    }
+  }
+}

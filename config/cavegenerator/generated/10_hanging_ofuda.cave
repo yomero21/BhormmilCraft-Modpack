@@ -1,0 +1,70 @@
+{
+  structures: [
+    {
+      biomes: { names: [ "biomesoplenty:ominous_woods" ], mods: [], types: [] }
+      blacklistBiomes: false
+      name: cave_structure_ceiling_ofuda_x1
+      offset: [
+        0
+        -2
+        0
+      ]
+      matchers: [ "biomesoplenty:dirt", "biomesoplenty:grass:2" ]
+      airChecks: [ [ 0, -1, 0 ], [ 0, -2, 0 ], [ 0, -4, 0 ] ]
+      solidChecks: []
+      directions: up
+      chance: 1
+      count: 4
+      height: [
+        56
+        65
+      ]
+      checkSurface: false
+      integrity: 1
+    }
+    {
+      biomes: { names: [ "biomesoplenty:ominous_woods" ], mods: [], types: [] }
+      blacklistBiomes: false
+      name: cave_structure_ceiling_ofuda_x2
+      offset: [
+        0
+        -3
+        0
+      ]
+      matchers: [ "biomesoplenty:dirt", "biomesoplenty:grass:2" ]
+      airChecks: [ [ 0, -1, 0 ], [ 0, -3, 0 ], [ 0, -5, 0 ] ]
+      solidChecks: []
+      directions: up
+      chance: 1
+      count: 4
+      height: [
+        57
+        65
+      ]
+      checkSurface: false
+      integrity: 1
+    }
+    {
+      biomes: { names: [ "biomesoplenty:ominous_woods" ], mods: [], types: [] }
+      blacklistBiomes: false
+      name: cave_structure_ceiling_ofuda_x3
+      offset: [
+        0
+        -4
+        0
+      ]
+      matchers: [ "biomesoplenty:dirt", "biomesoplenty:grass:2" ]
+      airChecks: [ [ 0, -1, 0 ], [ 0, -3, 0 ], [ 0, -4, 0 ], [ 0, -6, 0 ] ]
+      solidChecks: []
+      directions: up
+      chance: 1
+      count: 4
+      height: [
+        58
+        65
+      ]
+      checkSurface: false
+      integrity: 1
+    }
+  ]
+}
