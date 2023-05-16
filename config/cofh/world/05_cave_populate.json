@@ -1,0 +1,321 @@
+{
+    "populate":{
+        "cave_verribyne":{
+			"distribution":"cave",
+			"generator":{
+				"type":"stalagmite",
+				"block":[
+					{
+						"name":"rotn_blocks:verribyne_0"
+					}
+				],
+				"material": [
+					"minecraft:leaves"
+				],
+				"gen-body": [
+					{ 
+						"name": "air"
+					}
+				],
+				"smooth": false,
+				"fat": false,
+				"min-height": 2,
+				"height-variance": 1,
+				"height-mod": 1,
+				"gen-size": 1,
+				"size-variance": 0
+			},
+			"chunk-chance": 5,
+			"cluster-count": 5,
+			"ceiling": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [0]
+			}
+		},
+		"cave_perforata":{
+			"distribution":"cave",
+			"generator":{
+				"type":"stalagmite",
+				"block":[
+					{
+						"name":"contenttweaker:perforata"
+					}
+				],
+				"material": [
+					"minecraft:leaves",
+					"terraqueous:foliage5"
+				],
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"smooth": false,
+				"fat": false,
+				"min-height": 2,
+				"height-variance": 3,
+				"height-mod": 2,
+				"gen-size": 2,
+				"size-variance": 0
+			},
+			"chunk-chance": 2,
+			"cluster-count": 4,
+			"ceiling": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [0]
+			}
+		},
+		"cave_moss":{
+			"distribution":"cave",
+			"generator":{
+				"type":"cluster",
+				"block":[
+					{
+						"name":"rotn_blocks:cave_moss"
+					}
+				],
+				"material": [
+					"minecraft:dirt",
+					"minecraft:mossy_cobblestone"					],
+				"cluster-size": 5
+			},
+			"chunk-chance": 1,
+			"cluster-count": 15,
+			"ground-level": 40,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [0]
+			}
+		},
+		"cave_moss_patch":{
+			"distribution":"cave",
+			"generator":{
+				"type":"decoration",
+				"block":[
+					{
+						"name":"contenttweaker:moss_patch",
+						"weight":4
+					}
+				],
+				"surface":[
+					"minecraft:dirt",
+					"minecraft:mossy_cobblestone",
+					"rotn_blocks:cave_moss"
+				],
+				"material": "air",
+				"cluster-size": 24,
+				"see-sky": false
+			},
+			"chunk-chance": 1,
+			"cluster-count": 24,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [0]
+			}
+		},
+		"cave_grass":{
+			"distribution":"cave",
+			"generator":{
+				"type":"decoration",
+				"block":[
+					{
+						"name":"contenttweaker:cave_bramble",
+						"weight":4
+					},
+					{
+						"name":"contenttweaker:cave_grass",
+						"weight":1
+					}
+				],
+				"surface":[
+					"backportedblocks:deepslate",
+					"minecraft:stone",
+                    "harvestfestival:stone",
+                    "harvestfestival:dirt_decorative",
+					{
+						"name":"harvestfestival:stone",
+						"metadata":1
+					}
+				],
+				"material": "air",
+				"cluster-size": 10,
+				"see-sky": false
+			},
+			"chunk-chance": 2,
+			"ground-level": 40,
+			"cluster-count": 12,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+                "restriction": "whitelist",
+                "value": [0, 7]
+            }
+		},
+		"cave_stones":{
+			"distribution":"cave",
+			"generator":{
+				"type":"decoration",
+				"block":[
+					{
+						"name":"harvestfestival:rock",
+						"weight":4,
+						"properties":{
+							"rock":"stone_large"
+						}
+					},
+					{
+						"name":"harvestfestival:rock",
+						"weight":2,
+						"properties":{
+							"rock":"stone_medium"
+						}
+					},
+					{
+						"name":"harvestfestival:rock",
+						"weight":2,
+						"properties":{
+							"rock":"boulder_medium"
+						}
+					},
+					{
+						"name":"pvj:stone_rocks",
+						"weight":10
+					}
+					
+				],
+				"surface":[
+					"backportedblocks:deepslate",
+					{
+						"name":"harvestfestival:stone",
+						"metadata":1
+					},
+                    "harvestfestival:dirt_decorative"
+				],
+				"material": "air",
+				"cluster-size": 12,
+				"see-sky": false
+			},
+			"chunk-chance": 3,
+			"ground-level": 40,
+			"cluster-count": 10,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+                "restriction": "whitelist",
+                "value": [0, 7]
+            }
+		},
+		"cave_tuff":{
+			"distribution":"uniform",
+			"generator":{
+				"type":"cluster",
+				"block":[
+					{
+						"name":"backportedblocks:tuff"
+					}
+				],
+				"material": [
+					"backportedblocks:deepslate",
+                    "harvestfestival:stone",
+                    "harvestfestival:dirt",
+					{
+						"name":"harvestfestival:stone",
+						"metadata":1
+					},
+					"harvestfestival:dirt_decorative"
+					],
+				"cluster-size": 28
+			},
+			"chunk-chance": 2,
+			"cluster-count": 3,
+            "min-height": 5,
+            "max-height": 40,
+            "retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [0]
+			}
+		},
+//        "cave_mine_floor":{
+//            "distribution":"cave",
+//            "generator":{
+//                "type":"plate",
+//                "block":[
+//                    {
+//                        "name":"harvestfestival:dirt_decorative",
+//                        "weight":13
+//                    },
+//                    {
+//                        "name":"harvestfestival:stone",
+//						"metadata":1,
+//                        "weight":1
+//                    }
+//                ],
+//                "radius":12,
+//                "height":0,
+//                "slim":false,
+//                "material": [
+//                    "backportedblocks:deepslate",
+//                    "harvestfestival:stone",
+//					{
+//						"name":"harvestfestival:stone",
+//						"metadata":1
+//					}
+//				]
+//            },
+//            "chunk-chance": 1,
+//            "cluster-count": 3,
+//            "ground-level": 40,
+//            "retrogen": true,
+//            "biome": "all",
+//            "dimension": {
+//                "restriction": "whitelist",
+//                "value": [0]
+//            }
+//       }
+		"cave_bones":{
+			"distribution":"cave",
+			"generator":{
+				"type":"decoration",
+				"block":[
+					{
+						"name":"pvj:bones",
+						"weight":4
+					}
+				],
+				"surface":[
+					"backportedblocks:deepslate",
+                    "harvestfestival:stone",
+					{
+						"name":"harvestfestival:stone",
+						"metadata":1
+					},
+                    "harvestfestival:dirt_decorative"
+				],
+				"material": "air",
+				"cluster-size": 2,
+				"see-sky": false
+			},
+			"chunk-chance": 4,
+			"ground-level": 40,
+			"cluster-count": 1,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": { 
+                "restriction": "whitelist",
+                "value": [0]
+            }
+		}
+    }
+}

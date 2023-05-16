@@ -1,0 +1,48 @@
+{
+	"dependencies": [
+		"cavegenerator",
+		"bettermineshafts"
+		],
+	"populate": 
+	{
+		"dense_redstone": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					"pyrotech:dense_redstone_ore_large_inactive",
+					"pyrotech:dense_redstone_ore_small_inactive",
+					"pyrotech:dense_redstone_ore_rocks_inactive"
+				],
+				"material": [
+					"air",
+					"tallgrass",
+					"contenttweaker:moss_patch"
+				],
+				"surface": [
+					"osv:redstone_ore_quark_marble",
+					"osv:redstone_ore_quark_limestone",
+					"osv:redstone_ore_sandstone",
+					"osv:redstone_ore_quark_jasper",
+					"osv:redstone_ore_hardened_clay",
+					"osv:redstone_ore_rotn_blocks_cave_moss",
+					"osv:redstone_ore_backportedblocks_deepslate",
+					"osv:redstone_ore_stained_hardened_clay",
+					"osv:redstone_ore_red_sandstone",
+					"osv:redstone_ore_quark_slate",
+					"osv:redstone_ore_chisel_limestone",
+					"osv:redstone_ore_cobblestone",
+					"osv:redstone_ore"
+				],
+				"cluster-size": 1,
+				"see-sky": false
+				},
+			"cluster-count": 6,
+			"ground-level": 28,
+			"chunk-chance": 1,
+			"retrogen": "true"
+		}
+	}
+}
+
+
