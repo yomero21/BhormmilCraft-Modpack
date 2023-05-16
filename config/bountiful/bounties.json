@@ -1,0 +1,435 @@
+[
+    {
+        "content": "tconstruct:ingots:1",
+        "amount": {
+            "min": 4,
+            "max": 16
+        },
+        "unitWorth": 2500,
+        "weight": 100
+    },
+    {
+        "content": "tconstruct:ingots:0",
+        "amount": {
+            "min": 4,
+            "max": 16
+        },
+        "unitWorth": 2500,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:fish",
+        "amount": {
+            "min": 2,
+            "max": 32
+        },
+        "unitWorth": 400,
+        "weight": 100
+    },
+    {
+        "content": "tconstruct:materials:11",
+        "amount": {
+            "min": 1,
+            "max": 8
+        },
+        "unitWorth": 1800,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:book",
+        "amount": {
+            "min": 2,
+            "max": 32
+        },
+        "unitWorth": 160,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:diamond",
+        "amount": {
+            "min": 1,
+            "max": 8
+        },
+        "unitWorth": 1600,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:gold_ingot",
+        "amount": {
+            "min": 3,
+            "max": 24
+        },
+        "unitWorth": 800,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:iron_ingot",
+        "amount": {
+            "min": 10,
+            "max": 32
+        },
+        "unitWorth": 600,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:rotten_flesh",
+        "amount": {
+            "min": 12,
+            "max": 64
+        },
+        "unitWorth": 40,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:slime_ball",
+        "amount": {
+            "min": 12,
+            "max": 64
+        },
+        "unitWorth": 60,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:spider_eye",
+        "amount": {
+            "min": 12,
+            "max": 64
+        },
+        "unitWorth": 60,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:string",
+        "amount": {
+            "min": 16,
+            "max": 64
+        },
+        "unitWorth": 30,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:sugar",
+        "amount": {
+            "min": 16,
+            "max": 64
+        },
+        "unitWorth": 20,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:wheat",
+        "amount": {
+            "min": 1,
+            "max": 48
+        },
+        "unitWorth": 15,
+        "weight": 100
+    },
+    {
+        "content": "minecraft:leather",
+        "amount": {
+            "min": 1,
+            "max": 32
+        },
+        "unitWorth": 120,
+        "weight": 100
+    },
+    {
+        "content": "entity:minecraft:zombie",
+        "amount": {
+            "min": 6,
+            "max": 25
+        },
+        "unitWorth": 500,
+        "weight": 300
+    },
+    {
+        "content": "entity:minecraft:wither",
+        "amount": {
+            "min": 1,
+            "max": 2
+        },
+        "unitWorth": 24000,
+        "weight": 50
+    },
+    {
+        "content": "entity:minecraft:ender_dragon",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 50000,
+        "weight": 10
+    },
+    {
+        "content": "entity:minecraft:skeleton",
+        "amount": {
+            "min": 8,
+            "max": 20
+        },
+        "unitWorth": 600,
+        "weight": 250
+    },
+    {
+        "content": "entity:minecraft:spider",
+        "amount": {
+            "min": 6,
+            "max": 20
+        },
+        "unitWorth": 500,
+        "weight": 250
+    },
+    {
+        "content": "entity:minecraft:cave_spider",
+        "amount": {
+            "min": 6,
+            "max": 16
+        },
+        "unitWorth": 550,
+        "weight": 250
+    },
+    {
+        "content": "entity:minecraft:creeper",
+        "amount": {
+            "min": 3,
+            "max": 12
+        },
+        "unitWorth": 1000,
+        "weight": 200
+    },
+	{
+        "content": "entity:minecraft:enderman",
+        "amount": {
+            "min": 4,
+            "max": 15
+        },
+        "unitWorth": 1650,
+        "weight": 300
+    },
+    {
+        "content": "entity:minecraft:zombie_pigman",
+        "amount": {
+            "min": 4,
+            "max": 16
+        },
+        "unitWorth": 700,
+        "weight": 200
+    },
+    {
+        "content": "entity:minecraft:wither_skeleton",
+        "amount": {
+            "min": 2,
+            "max": 9
+        },
+        "unitWorth": 1800,
+        "weight": 50
+    },
+    {
+        "content": "minecraft:potion",
+        "amount": {
+            "min": 1,
+            "max": 3
+        },
+        "unitWorth": 700,
+        "weight": 10,
+        "nbt_data": "{Potion: \"minecraft:healing\"}"
+    },
+    {
+        "content": "minecraft:emerald",
+        "amount": {
+            "min": 4,
+            "max": 12
+        },
+        "unitWorth": 3200,
+        "weight": 120
+    },
+    {
+        "content": "twilightforest:ironwood_ingot",
+        "amount": {
+            "min": 1,
+            "max": 8
+        },
+        "unitWorth": 2000,
+        "weight": 100
+    },
+    {
+        "content": "thermalfoundation:material:162",
+        "amount": {
+            "min": 1,
+            "max": 8
+        },
+        "unitWorth": 1000,
+        "weight": 80
+    },
+    {
+        "content": "minecraft:blaze_rod",
+        "amount": {
+            "min": 1,
+            "max": 8
+        },
+        "unitWorth": 3000,
+        "weight": 70
+    },
+    {
+        "content": "thermalfoundation:material:135",
+        "amount": {
+            "min": 1,
+            "max": 8
+        },
+        "unitWorth": 12000,
+        "weight": 24
+    },
+	{
+        "content": "thermalfoundation:material:160",
+        "amount": {
+            "min": 1,
+            "max": 12
+        },
+        "unitWorth": 2400,
+        "weight": 30
+    },
+	{
+        "content": "additions:netherite_ingot",
+        "amount": {
+            "min": 1,
+            "max": 4
+        },
+        "unitWorth": 12000,
+        "weight": 20
+    },
+	{
+        "content": "entity:minecraft:witch",
+        "amount": {
+            "min": 2,
+            "max": 10
+        },
+        "unitWorth": 600,
+        "weight": 200
+    },
+	{
+        "content": "entity:minecraft:blaze",
+        "amount": {
+            "min": 2,
+            "max": 8
+        },
+        "unitWorth": 900,
+        "weight": 160
+    },
+    {
+        "content": "minecraft:nether_star",
+        "amount": {
+            "min": 1,
+            "max": 10
+        },
+        "unitWorth": 8000,
+        "weight": 10
+    },
+    {
+        "content": "entity:minecraft:husk",
+        "amount": {
+            "min": 3,
+            "max": 15
+        },
+        "unitWorth": 800,
+        "weight": 40
+    },
+    {
+        "content": "entity:minecraft:ghast",
+        "amount": {
+            "min": 1,
+            "max": 3
+        },
+        "unitWorth": 1200,
+        "weight": 80
+    },
+    {
+        "content": "entity:twilightforest:giant_miner",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 8000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:minoshroom",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 6000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:minotaur",
+        "amount": {
+            "min": 6,
+            "max": 20
+        },
+        "unitWorth": 450,
+        "weight": 20
+    },
+    {
+        "content": "entity:twilightforest:hydra",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 12000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:naga",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 7200,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:ur_ghast",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 18000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:lich",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 10000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:snow_queen",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 15000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:yeti_alpha",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 8000,
+        "weight": 12
+    },
+    {
+        "content": "entity:twilightforest:knight_phantom",
+        "amount": {
+            "min": 1,
+            "max": 1
+        },
+        "unitWorth": 9000,
+        "weight": 12
+    }
+]
